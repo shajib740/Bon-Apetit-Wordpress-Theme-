@@ -1,0 +1,240 @@
+/*
+FONTS NEEDED::: Raleway,Copse.
+*/
+@font-face {
+    font-family: 'Raleway';
+    src: url('fonts/raleway-regular-webfont.woff2') format('woff2'),
+    url('fonts/raleway-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'Copse';
+    src: url('fonts/copse-regular-webfont.woff2') format('woff2'),
+    url('fonts/copse-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+.no-margin{
+    margin: 0px;
+}
+.ps-ba-blog-post {
+    background: #e7e8e9;
+    padding-top: 60px;
+}
+
+.col-md-9.ps-ba-single-first-col {
+    margin-bottom: 20px;
+    background: #fff;
+    padding: 34px 32px 0;
+}
+
+.ps-ba-featured-img {
+    margin-bottom: 32px;
+}
+.ps-ba-featured-img img {
+    width: 100%;
+}
+
+.ps-ba-header-wrap {
+    margin-left: 10px;
+}
+.ps-ba-single-show-category{
+    margin-bottom: 20px;
+}
+.ps-ba-single-show-category a {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: "Raleway";
+    color: rgb(130, 202, 156);
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 8px;
+}
+
+.ps-ba-single-show-category a:hover, .ps-ba-single-show-category a:active, .ps-ba-single-show-category a:focus{
+    color: rgb(85, 140, 110);
+}
+/*Title*/
+.ps-ba-single-title{
+    margin-bottom: 12px;
+}
+.ps-ba-single-title h1 {
+    font-size: 24px;
+    font-family: "Copse";
+    color: rgb(50, 19, 19);
+}
+
+/*META*/
+.ps-ba-single-post-meta{
+    margin-bottom: 23px;
+}
+.ps-ba-single-post-meta p {
+    font-size: 16px;
+    font-family: "Helvetica Neue", Helvetica, "Segoe UI", Arial, sans-serif;
+    color: rgb(50,19,19);
+}
+
+
+
+/*content*/
+.ps-ba-single-content{
+    padding-bottom: 88px;
+}
+.ps-ba-single-content p{
+    font-size: 16px;
+    font-family: 'Raleway';
+    color: rgb(28, 26, 27);
+    line-height: 1.5;
+    margin-bottom: 2em;
+}
+
+
+figure.wp-caption.aligncenter {
+    margin: 0;
+    width: 100% !important;
+}
+figure.wp-caption.aligncenter img{
+    width: 100%;
+}
+figure.wp-caption.alignright{
+    float: right;
+    margin-left: 22px;
+}
+figure.wp-caption.alignright figcaption.wp-caption-text{
+    text-align: right;
+}
+figure.wp-caption.alignleft {
+    float: left;
+    margin-right: 28px;
+}
+figcaption.wp-caption-text {
+    margin: 12px 0;
+    font-size: 12px;
+    font-family: "Raleway";
+    color: rgb(28, 26, 27);
+}
+
+/*TAGS*/
+.ps-ba-single-tags{
+    clear: both;
+    margin-bottom: 90px;
+}
+.ps-ba-single-tags h3{
+    font-size: 16px;
+    font-family: "Copse";
+    color: rgb(28, 26, 27);
+    float: left;
+}
+.ps-ba-single-tags h3 a{
+    font-size: 10px;
+    font-family: "Raleway";
+    color: rgb(130, 202, 156);
+    line-height: 3.5em;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid rgb(130, 202, 156);
+    border-radius: 10px ;
+    margin-left: 8px;
+    padding: 7px 12px;
+}
+.ps-ba-single-tags h3 a:hover, .ps-ba-single-tags h3 a:active, .ps-ba-single-tags h3 a:focus{
+    color: rgb(85, 140, 110);
+    border-color: rgb(85, 140, 110);
+}
+
+/*SOCIAL LINK */
+.ps-ba-social-link-style{
+    float: right;
+    margin-top: 15px;
+}
+
+/*Navigation*/
+.ps-ba-single-nav-section {
+    margin-bottom: 46px;
+}
+.ps-ba-single-navigation{
+    clear: both;
+    padding-bottom: 22px;
+    padding-top: 4px;
+}
+.ps-ba-single-nav-next{
+    float: right;
+}
+.ps-ba-single-nav-prev{
+    float: left;
+}
+
+.ps-ba-single-nav-prev ,.ps-ba-single-nav-next{
+    font-family: 'Raleway';
+    font-weight: 600;
+    font-size: 18px;
+    color: #919191;
+    
+}
+.ps-ba-single-nav-next a, .ps-ba-single-nav-prev a{
+    font-size: 12px;
+    font-family: 'Raleway Sans-sefir';
+    color: rgb(145, 145, 145);
+    text-transform: uppercase;
+    text-decoration: none;
+   
+}
+.ps-ba-single-nav-next a:hover,.ps-ba-single-nav-next a:active,.ps-ba-single-nav-next a:focus,
+.ps-ba-single-nav-prev a:hover, .ps-ba-single-nav-prev a:active, .ps-ba-single-nav-prev a:focus,
+.ps-ba-single-nav-next:hover, .ps-ba-single-nav-next:focus, .ps-ba-single-nav-next:active{
+    color: rgb(85, 140, 110);
+}
+
+.ps-ba-single-hr{
+    clear: both;
+}
+
+/*Admin Info*/
+.row.ps-ba-single-admin {
+    border: 2px solid rgb(231, 232, 233);
+    margin-bottom: 74px;
+}
+.col-md-3.ps-ba-single-admin-img {
+    padding: 20px 20px 20px 25px;
+    margin-bottom: 22px;
+}
+img.img-responsive.ps-ba-single-admin-img-width {
+    width: 100%;
+}
+h3.ps-ba-single-admin-content-name {
+    margin-top: 52px;
+    margin-bottom: 22px;
+    font-size: 16px;
+    font-family: "Copse";
+    color: rgb(50, 19, 19);
+    text-transform: uppercase;
+}
+p.ps-ba-single-admin-content-desc {
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    line-height: 25px;
+    color: rgb(28, 26, 27);
+    font-variant: small-caps;
+    margin-bottom: 22px;
+}
+
+
+ .comment-form-comment textarea {
+     height: 250px;
+     max-width: 100%;
+}
+.comment-form-comment label {
+    display: none;
+    margin: -10px 50px 0 5px;
+    /*width: 290px;*/
+    /*height: 25px;*/
+    font-weight:bold;
+    background-color: white;
+}
+
+
